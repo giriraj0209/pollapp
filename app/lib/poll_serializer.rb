@@ -1,14 +1,3 @@
-##
-# Serializes a poll's data in order to be used dy data visualization tools like
-# D3.
-#
-# The serializer should be able to:
-#
-# * Retrieve the actual data in the form of a hash;
-# * Retrieve both axis information: legend, numeric ranges (if necessary),
-#   occasional different columns for +x+;
-#
-
 class PollSerializer
   class << self
     ##
